@@ -94,11 +94,17 @@
 						<p>Currently accepting new clients, feel free to contact me for a consultation!</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form method="post" action="post" data-netlify="true">
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<!-- <div class="col-12">
+											<input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="4"/>
+										</div> -->
+										<div class="col-12">
+											<div data-netlify-recaptcha="true"></div>
+										</div>
 									</div>
 								</form>
 								<ul class="actions">
@@ -112,10 +118,9 @@
 										Boston, Massachusetts<br />
 										United States
 									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										857-225-4162
-									</li>
+									<!-- <li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>x
+									</li> -->
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
 										<a href="mailto:cintnguyen98@gmail.com">cintnguyen98@gmail.com</a>
