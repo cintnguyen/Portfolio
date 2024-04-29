@@ -3219,3 +3219,18 @@ input, select, textarea {
 			}
 
 	}
+
+/* Custom */
+
+#flowers {
+	padding-left: 0;
+  }
+  
+#flowers li::before {
+	content: "✿";
+	padding-right: 1em;
+}
+
+li {
+	list-style-type: none
+}
